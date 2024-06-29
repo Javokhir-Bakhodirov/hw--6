@@ -1,0 +1,31 @@
+.about_section {
+	padding-top: 50px;
+}
+
+.about__title {
+	font-weight: 800;
+	font-size: 100px;
+	line-height: 116px;
+	color: #f7f197;
+}
+
+.about__text {
+	width: 900px;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 44px;
+}
+
+.about__item {
+	width: 900px;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.about__list {
+	align-items: end;
+	display: flex;
+	flex-direction: column;
+	gap: 68px;
+	margin-top: 100px;
+}

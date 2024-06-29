@@ -1,0 +1,38 @@
+.header {
+	box-shadow: 1px 3px 8px -1px rgba(64, 60, 8, 0.2);
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.head {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.site_logo {
+	font-weight: 600;
+	font-size: 24px;
+	color: #03045e;
+	text-decoration: none;
+}
+
+.nav {
+	display: inline;
+}
+.nav__list {
+	display: flex;
+}
+
+.nav__item + .nav__item {
+	margin-left: 20px;
+}
+
+.nav__item > a {
+	font-weight: 400;
+	font-size: 18px;
+	color: #03045e;
+}
+
+.active {
+	background-color: aqua;
+}

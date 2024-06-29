@@ -1,0 +1,39 @@
+.info {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.info__content {
+	max-width: 580px;
+	color: #03045e;
+}
+
+.info__text {
+	font-weight: 500;
+	font-size: 28px;
+	margin-bottom: 54px;
+}
+
+.info__text > span {
+	font-weight: 800;
+	font-size: 100px;
+	line-height: 90px;
+}
+.info__btn {
+	background-color: #f5ee84;
+	padding: 12px 24px;
+	border-radius: 10px;
+	position: absolute;
+	top: 8px;
+	left: 8px;
+	z-index: -1;
+	transition: 0.3s all ease;
+}
+.btn_shadow {
+	width: 114.5px;
+	position: relative;
+	height: 50px;
+	border: 1px solid #03045e;
+	border-radius: 10px;
+}
